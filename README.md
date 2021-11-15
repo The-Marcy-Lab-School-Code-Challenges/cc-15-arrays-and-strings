@@ -10,9 +10,9 @@
 
 ## Code Problems
 
-1. Declare a function called `stripUpperCase` that takes in a string argument and returns that string with all uppercase letters removed.
+1. Declare a function named `findLongestWord`, that takes an array of strings as an argument, and returns the longest string in the array. If there is more than one longest word, the function should return the first longest string that appears in the array. You must solve this without using any array methods. 
 ```
-stripUpperCase('Hello!'); // 'ello!'
-stripUpperCase('SevenEleven'); // 'evenleven'
-stripUpperCase("Don't play with Me!"); // 'ont play with e!'
+findLongestWord(["The","quick","brown", "fox", "jumped", "over", "the", "lazy", "dog"]) //returns "jumped"
+
+findLongestWord(["jazzy", "jumpy", "quaky") //returns "jazzy"
 ```
