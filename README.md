@@ -14,5 +14,5 @@
 ```
 findLongestWord(["The","quick","brown", "fox", "jumped", "over", "the", "lazy", "dog"]) //returns "jumped"
 
-findLongestWord(["jazzy", "jumpy", "quaky") //returns "jazzy"
+findLongestWord(["jazzy", "jumpy", "quaky"]) //returns "jazzy"
 ```
